@@ -6,7 +6,7 @@ INSTRUCTION: 2. Accordion container: A div element that holds multiple accordion
 
 <template>
   <section class="py-8 bg-white pl-4">
-    <h2 class="text-lg font-semibold mb-5">PLACEHOLDER_FAQ_TITLE</h2>
+    <h2 class="text-lg font-semibold mb-5">Frequently Asked Questions about SuiScan</h2>
     <!-- Accordion -->
     <div class="space-y-3">
       <!-- Accordion item -->
@@ -73,10 +73,10 @@ export default {
   data() {
     return {
       terms: [
-        { title: "ACCORDION_QUESTION_1", description: "ACCORDION_ANSWER_1", expanded: false },
-        { title: "ACCORDION_QUESTION_2", description: "ACCORDION_ANSWER_2", expanded: false },
-        { title: "ACCORDION_QUESTION_3", description: "ACCORDION_ANSWER_3", expanded: false },
-        { title: "ACCORDION_QUESTION_4", description: "ACCORDION_ANSWER_4", expanded: false }
+        { title: "What is SuiScan?", description: "SuiScan is a powerful app designed to help users discover and track new transactions on the Sui blockchain in real-time. It provides an intuitive interface for monitoring, analyzing, and exploring the latest Sui network activity.", expanded: false },
+        { title: "How does SuiScan work?", description: "SuiScan connects directly to the Sui blockchain, continuously fetching and processing new transaction data. It uses advanced filtering and sorting algorithms to present users with the most relevant and recent transactions, making it easy to stay up-to-date with network activity.", expanded: false },
+        { title: "What features does SuiScan offer?", description: "SuiScan offers a range of features including real-time transaction monitoring, customizable alerts, detailed transaction analysis, address tracking, and comprehensive search capabilities. Users can also view transaction history, track specific tokens, and export data for further analysis.", expanded: false },
+        { title: "Is SuiScan suitable for both beginners and advanced users?", description: "Absolutely! SuiScan is designed with a user-friendly interface that caters to beginners, while also offering advanced features and data analysis tools for experienced users and developers. Whether you're new to Sui or a blockchain expert, SuiScan has something to offer.", expanded: false }
       ]
     };
   },
